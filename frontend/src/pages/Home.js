@@ -1,15 +1,12 @@
 import React from 'react';
-import EmailVerification from '../components/EmailVerification';
-import MintNFT from '../components/MintNFT';
-import Whitelist from '../components/Whitelist';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
         <div>
-            <h1>Welcome to NFT Minting Platform</h1>
-            <EmailVerification />
-            <Whitelist />
-            <MintNFT />
+            <h2>Welcome to the NFT Minting Platform</h2>
+            <p>This is the home page. Navigate to the Email Verification page to get started.</p>
+            <Link to="/email-auth">Go to Email Verification</Link>
         </div>
     );
 };
