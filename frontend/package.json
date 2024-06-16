@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.20",
+    "axios": "^1.7.2",
     "browserify-fs": "^1.0.0",
     "caver-js": "^1.11.0",
     "crypto-browserify": "^3.12.0",
