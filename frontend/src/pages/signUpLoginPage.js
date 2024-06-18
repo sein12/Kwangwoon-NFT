@@ -76,8 +76,16 @@ const SignUpLoginPage = () => {
                   variant="outlined"
                   color="primary"
                   onClick={handleLogout}
+                  sx={{ mr: 2 }}
                 >
                   로그아웃
+                </Button>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={() => navigate("/nft")}
+                >
+                  이메일 인증하기
                 </Button>
               </Box>
             </Paper>

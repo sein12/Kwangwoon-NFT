@@ -17,14 +17,19 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Typography
+          variant="h6"
+          component={CustomLink}
+          to="/"
+          sx={{ flexGrow: 1, textDecoration: "none", color: "white" }}
+        >
           광운대 NFT 프로젝트
         </Typography>
-        <CustomButton component={CustomLink} to="/">
-          Home
+        <CustomButton component={CustomLink} to="/voting">
+          voting
         </CustomButton>
-        <CustomButton component={CustomLink} to="/nft">
-          NFT
+        <CustomButton component={CustomLink} to="/marketplace">
+          마켓플레이스
         </CustomButton>
       </Toolbar>
     </AppBar>

@@ -37,28 +37,6 @@ const MainPage = () => {
                 Get Started
               </Button>
             </Grid>
-            <Grid item>
-              <Button
-                variant="outlined"
-                color="primary"
-                size="large"
-                component={CustomLink}
-                to="/voting"
-              >
-                투표하기
-              </Button>
-            </Grid>
-            <Grid item>
-              <Button
-                variant="outlined"
-                color="primary"
-                size="large"
-                component={CustomLink}
-                to="/marketplace"
-              >
-                마켓플레이스
-              </Button>
-            </Grid>
           </Grid>
         </Box>
         <Introduction />

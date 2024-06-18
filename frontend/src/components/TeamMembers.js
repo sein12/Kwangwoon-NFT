@@ -2,9 +2,12 @@ import React from "react";
 import { Typography, Box, Avatar, Grid } from "@mui/material";
 
 const members = [
-  { name: "John Doe", role: "Project Manager" },
-  { name: "Jane Smith", role: "Developer" },
-  { name: "Mike Johnson", role: "Designer" },
+  { name: "최민섭", role: "Team Leader" },
+  { name: "이주석", role: "Front-end Developer" },
+  { name: "송승화", role: "Front-end Developer" },
+  { name: "최세인", role: "Back-end Developer" },
+  { name: "정우현", role: "Product Manager" },
+  { name: "방정현", role: "Product Manager" },
 ];
 
 const TeamMembers = () => {
